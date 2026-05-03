@@ -9,10 +9,15 @@ A key strength of the system is its robust fallback mechanism—even if GPS fail
 Key Features:
 
  -> Biometric fingerprint-based student authentication.
+ 
  -> Real-time GPS tracking with Google Maps integration.
+ 
  -> Instant Telegram notifications to parents.
+ 
  -> Fallback communication during GPS failure.
+ 
  -> Fully embedded system (no heavy cloud dependency).
+ 
  -> Cost-effective and scalable for real-world deployment.
 
 Tech Stack:
