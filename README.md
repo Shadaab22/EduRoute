@@ -7,12 +7,17 @@ The system leverages an ESP32 microcontroller, fingerprint sensor (R307), and NE
 A key strength of the system is its robust fallback mechanism—even if GPS fails to acquire location, attendance notifications are still delivered, ensuring uninterrupted communication. The system also includes an LCD display and buzzer feedback for real-time user interaction and stores enrollment data using Google Sheets integration.
 
 Key Features:
- -> Biometric fingerprint-based student authentication
- -> Real-time GPS tracking with Google Maps integration
- -> Instant Telegram notifications to parents
- -> Fallback communication during GPS failure
- -> Fully embedded system (no heavy cloud dependency)
- -> Cost-effective and scalable for real-world deployment
+ -> Biometric fingerprint-based student authentication.
+ 
+ -> Real-time GPS tracking with Google Maps integration.
+ 
+ -> Instant Telegram notifications to parents.
+ 
+ -> Fallback communication during GPS failure.
+ 
+ -> Fully embedded system (no heavy cloud dependency).
+ 
+ -> Cost-effective and scalable for real-world deployment.
 
 Tech Stack:
 ESP32 • Embedded C • Arduino IDE • GPS (NEO-6M) • Fingerprint Sensor • Telegram Bot API • Google Sheets
